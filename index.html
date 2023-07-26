@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f81f602dac.js" crossorigin="anonymous"></script>
+    <!-- =======unicons======= -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- ======Swiper css======== -->
+    <link rel="stylesheet" href="">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Yashaswini Jawalkar Protfolio website</title>
+</head>
+
+<body>
+    <!-- =======header========== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">YASHASWINI</a>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list grid">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">
+                            <i class="uil uil-estate nav_icons"></i>HOME
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">
+                            <i class="uil uil-user nav_icons"></i>ABOUT
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class="uil uil-analytics nav_icons"></i>SKILLS
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#projects" class="nav_link">
+                            <i class="uil uil-lightbulb-alt nav_icons"></i>projects
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#contact" class="nav_link">
+                            <i class="uil uil-envelope nav_icons"></i>CONTACT ME
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav_close" id="nav-close"></i>
+            </div>
+
+            <div class="nav_btns">
+                <!-- Theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- =======Main========== -->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_content grid">
+                    <div class="home_social">
+                        <a href="https://www.linkedin.com/in/yashaswini-jawalkar-a78215230" target="_blank"
+                            class="home_social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://github.com/204G1A05C5" target="_blank" class="home_social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                        <a href="https://instagram.com/yashaswini.jawalkar?igshid=YzgyMTM2MGM=" target="_blank"
+                            class="home_social-icon">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="home_img images">
+                        <img src="images/12.png" class="shape">
+                        <img src="images/yashu2.png" class="girl">
+                    </div>
+                    <div class="home_data">
+                        <h1 class="home_title">Hi, I'am</h1>
+                        <h1 class="home_title"><span>Yashaswini Jawalkar</span></h1>
+                        <h3 class="home_subtitle">Computer Science and Engineering</h3>
+                        <h3 class="home_subtitle">Srinivasa Ramanujan Institute of Technology</h3>
+                        <p class="home_description">This is my official Protfolio Website to show all my details and
+                            work experiences</p>
+                        <a href="#contact" class="button button--flex">Get in Touch<i
+                                class="uil uil-envelope-alt button_icon"></i></a>
+                    </div>
+                </div>
+                <div class="home_scroll">
+                    <a href="#about" class="home_scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+                        <span class="home_scroll-name">Scroll Down</span>
+                        <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section_title">About Me</h2>
+            <span class="section_subtitle">My Introduction</span>
+            <div class="about-1">
+                <div class="about_container container grid">
+                    <img src="images/about_img.jpeg" alt="Yashaswini Jawalkar" class="about_img">
+                </div>
+                <div class="about_data">
+                    <p class="about_description">I am a third-year BTech student with a passion for technology and a
+                        desire to constantly improve my skills. I have always been fascinated by the endless
+                        possibilities that technology offers and I am determined to be at the forefront of innovation. I
+                        believe that hands-on experience is the best way to learn, and I am always looking for new
+                        projects and opportunities to challenge myself and push the boundaries of what I am capable
+                        of.<br>I am excited to continue my journey in technology and am eager to take on new challenges.
+                        I am always open to new ideas and opportunities and am confident that I have the skills and
+                        determination to succeed. If you have any ideas or projects that you think I would be a good fit
+                        for, please do not hesitate to contact me</p>
+                </div>
+            </div>
+
+            <div class="about_info">
+                <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                <p class="tab-links" onclick="opentab('internship')">Interships</p>
+                <p class="tab-links" onclick="opentab('achievements')">certifications</p>
+            </div>
+            <div class="tab-content active-tab" id="education">
+                <ul>
+                    <li>
+                        <div class="for_logo">
+                            <div><span>Graduation(2020-2024)</span><br>
+                                <div>Computer Science and Engineering</div>Srinivasa Ramanujan Institute Of Technology -
+                                Anataputram
+                            </div>
+                        </div>
+                    </li>
+                    <li><span>pre-University(2018-2020)</span><br>
+                        <div>PCMB</div>Best independent PU College - Bellary
+                    </li>
+                    <li><span>Schooling (2018)</span><br>Krishnaveni Talent School</li>
+                </ul>
+            </div>
+            <div class="tab-content" id="internship">
+                <ul>
+                    <li>
+                        <div class="for_logo"><img
+                                src="https://i0.wp.com/sjbit.edu.in/wp-content/uploads/2021/07/AICTE-Logo-250x250-1.png?ssl=1">
+                            <div><span>Cybersecurity Virtual Internship</span><br>From AICTE - EDUSKILLS<br><a
+                                    href="certificates/CyberSecurity.pdf" target="_blank" class="btn"> Show Credentials
+                                    <i class="fa-solid fa-up-right-from-square"></i></a></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="for_logo"><img src="https://smartinternz.com/assets/logo/smartinternz_white.png"
+                                height="30" width="150">
+                            <div><span>Salesforce Developer Virtual Internship</span><br>From smartinternz -
+                                SmartBridge<br><a href="certificates/salesforce.pdf" target="_blank" class="btn"> Show
+                                    Credentials <i class="fa-solid fa-up-right-from-square"></i></a></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="for_logo"><img src="https://www.stanly.edu/academics/it-academy/photos/vmware.jpg"
+                                height="30" width="150">
+                            <div><span>Java Spring Boot & Modern Application Developer Virtual Internship</span><br>From
+                                VMware IT Academy<br><a href="certificates/VMWare.pdf" target="_blank" class="btn"> Show
+                                    Credentials <i class="fa-solid fa-up-right-from-square"></i></a></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="for_logo"><img
+                                src="https://i0.wp.com/sjbit.edu.in/wp-content/uploads/2021/07/AICTE-Logo-250x250-1.png?ssl=1">
+                            <div><span>process-mining</span><br>From AICTE - EDUSKILLS<br><a
+                                    href="certificates/Process mining.pdf" target="_blank" class="btn"> Show Credentials
+                                    <i class="fa-solid fa-up-right-from-square"></i></a></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="for_logo"><img
+                                src="https://i0.wp.com/sjbit.edu.in/wp-content/uploads/2021/07/AICTE-Logo-250x250-1.png?ssl=1">
+                            <div><span>AI-ML Virtual Internship</span><br>From AICTE - EDUSKILLS<br><a
+                                    href="certificates/AI_ML-AWS.pdf" target="_blank" class="btn"> Show Credentials <i
+                                        class="fa-solid fa-up-right-from-square"></i></a></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-content" id="achievements">
+                <ul>
+                    <li>
+                        <div class="for_logo"><img
+                                src="https://yt3.googleusercontent.com/X0vUtBZ5qcbR3FMGt3rUjkFy4j_Ju-BjGkFt-pO9QKaaeAH2bp1cpAPMyuRw3K03haG2OTctIQ=s176-c-k-c0x00ffffff-no-rj">
+                            <div><span>Programming In Java</span><br>From NPTEL<br><a href="certificates/java.pdf"
+                                    target="_blank" class="btn"> Show Credentials <i
+                                        class="fa-solid fa-up-right-from-square"></i></a></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="for_logo"><img
+                                src="https://1000logos.net/wp-content/uploads/2016/11/Cisco-logo.png">
+                            <div><span>CPA: Programming Essentials in C++</span><br>From CISCO<br><a
+                                    href="certificates/c++.pdf" target="_blank" class="btn"> Show Credentials <i
+                                        class="fa-solid fa-up-right-from-square"></i></a></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="for_logo"><img
+                                src="https://yt3.googleusercontent.com/X0vUtBZ5qcbR3FMGt3rUjkFy4j_Ju-BjGkFt-pO9QKaaeAH2bp1cpAPMyuRw3K03haG2OTctIQ=s176-c-k-c0x00ffffff-no-rj">
+                            <div><span>Introduction To Database Systems</span><br>From NPTEL<br><a
+                                    href="certificates/dbms.pdf" target="_blank" class="btn"> Show Credentials <i
+                                        class="fa-solid fa-up-right-from-square"></i></a></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="for_logo"><img
+                                src="https://yt3.googleusercontent.com/X0vUtBZ5qcbR3FMGt3rUjkFy4j_Ju-BjGkFt-pO9QKaaeAH2bp1cpAPMyuRw3K03haG2OTctIQ=s176-c-k-c0x00ffffff-no-rj">
+                            <div><span>Cloud Computing</span><br>From NPTEL<br><a href="certificates/CloudComputing.pdf"
+                                    target="_blank" class="btn"> Show Credentials <i
+                                        class="fa-solid fa-up-right-from-square"></i></a></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="for_logo"><img
+                                src="https://yt3.googleusercontent.com/X0vUtBZ5qcbR3FMGt3rUjkFy4j_Ju-BjGkFt-pO9QKaaeAH2bp1cpAPMyuRw3K03haG2OTctIQ=s176-c-k-c0x00ffffff-no-rj">
+                            <div><span>Data Analytics With Python</span><br>From NPTEL<br><a
+                                    href="certificates/Data analytics- NPTEL.pdf" target="_blank" class="btn"> Show
+                                    Credentials <i class="fa-solid fa-up-right-from-square"></i></a></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="for_logo"><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg">
+                            <div><span>Azure Developer Associate</span><br>From Microsoft<br><a
+                                    href="certificates/Microsoft Azure.pdf" target="_blank" class="btn"> Show
+                                    Credentials <i class="fa-solid fa-up-right-from-square"></i></a></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="for_logo"><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg">
+                            <div><span>Azure Data Scientist Associate</span><br>From Microsoft<br><a
+                                    href="certificates/data scientist - Microsoft.pdf" target="_blank" class="btn"> Show
+                                    Credentials <i class="fa-solid fa-up-right-from-square"></i></a></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="for_logo"><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg">
+                            <div><span>Power BI Data Analytics Associate</span><br>From Microsoft<br><a
+                                    href="certificates/power bi - Microsoft.pdf" target="_blank" class="btn"> Show
+                                    Credentials <i class="fa-solid fa-up-right-from-square"></i></a></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="for_logo"><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg">
+                            <div><span>Azure Fundamentals</span><br>From Microsoft<br><a
+                                    href="certificates/azure fundumentals-Microsoft.pdf" target="_blank" class="btn">
+                                    Show Credentials <i class="fa-solid fa-up-right-from-square"></i></a></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="for_logo"><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg">
+                            <div><span>Google Data Analytics</span><br>From Coursera<br><a
+                                    href="certificates/data analytics - Coursera.pdf" target="_blank" class="btn"> Show
+                                    Credentials <i class="fa-solid fa-up-right-from-square"></i></a></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section_title">Skills</h2>
+            <span class="section_subtitle">My Technical Levels</span>
+
+            <div class="skills_container container grid">
+                <!-- <div> -->
+                <!-- ===============Skills 1 ==================== -->
+                <div class="skills_content skills_open">
+                    <div class="skills_header">
+                        <i class="uil uil-brackets-curly skills_icon"></i>
+                        <div>
+                            <h1 class="skills_title">Programming</h1>
+                        </div>
+                        <i class="uil uil-angle-down skills_arrow"></i>
+                    </div>
+                    <div class="skills_list grid">
+                        <div class="skills_data">
+                            <div class="skills_title">
+                                <h3 class="skills_name"> Core Java</h3>
+                                <span class="skills_number">80%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_java"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_title">
+                                <h3 class="skills_name">Python</h3>
+                                <span class="skills_number">60%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_python"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_title">
+                                <h3 class="skills_name">C/C++</h3>
+                                <span class="skills_number">50%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_c"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- =================skills 2================ -->
+                <div class="skills_content skills_close">
+                    <div class="skills_header">
+                        <i class="uil uil-code-branch skills_icon"></i>
+                        <div>
+                            <h1 class="skills_title">Computer Fundamentals</h1>
+                        </div>
+                        <i class="uil uil-angle-down skills_arrow"></i>
+                    </div>
+                    <div class="skills_list grid">
+                        <div class="skills_data">
+                            <div class="skills_title">
+                                <h3 class="skills_name">Database Managment System</h3>
+                                <span class="skills_number">50%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_dbms"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_title">
+                                <h3 class="skills_name">Computer Networks</h3>
+                                <span class="skills_number">40%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_cn"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_title">
+                                <h3 class="skills_name">Operating System</h3>
+                                <span class="skills_number">30%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_os"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- =================skills 3================ -->
+                <div class="skills_content skills_close">
+                    <div class="skills_header">
+                        <i class="uil uil-arrow skills_icon"></i>
+                        <div>
+                            <h1 class="skills_title">Frontend Development</h1>
+                        </div>
+                        <i class="uil uil-angle-down skills_arrow"></i>
+                    </div>
+                    <div class="skills_list grid">
+                        <div class="skills_data">
+                            <div class="skills_title">
+                                <h3 class="skills_name">HTML</h3>
+                                <span class="skills_number">80%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_html"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_title">
+                                <h3 class="skills_name">CSS</h3>
+                                <span class="skills_number">60%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_css"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_title">
+                                <h3 class="skills_name">JavaScript</h3>
+                                <span class="skills_number">50%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_js"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- ==================skills4================ -->
+                <div class="skills_content skills_close">
+                    <div class="skills_header">
+                        <i class="uil uil-server-connection skills_icon"></i>
+                        <div>
+                            <h1 class="skills_title">Backend Development</h1>
+                        </div>
+                        <i class="uil uil-angle-down skills_arrow"></i>
+                    </div>
+                    <div class="skills_list grid">
+                        <div class="skills_data">
+                            <div class="skills_title">
+                                <h3 class="skills_name">PHP</h3>
+                                <span class="skills_number">50%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_php"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_title">
+                                <h3 class="skills_name">Node JS</h3>
+                                <span class="skills_number">70%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_nodejs"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- </div> -->
+            </div>
+
+        </section>
+
+
+        <!--==================== PROJECT====================-->
+        <section class="project section" id="portfolio">
+                <div class="container">
+                    <h1 class="title">Projects</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="images/protfiolio.jpeg">
+                            <div class="layer">
+                                <h2>Personal Protfolio Responsive Website</h2>
+                                <p id="c">This project focuses on building a website Which contains all the
+                                    details of an individual. It’s a advanced version of Resume , build using
+                                    HTML, CSS, JavaScript.</p>
+                                <a href="https://github.com/YashaswiniJawalkar/Personal__Protfolio_Responsive_Website" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/Voicebot.jpeg">
+                            <div class="layer">
+                                <h2>Conversation_AI(VoiceBot) for Healthcare Industry</h2>
+                                <p id="c">The goal of the project is to develop a conversational healthcare voice chatbot. This chatbot will use natural language processing and machine learning techniques to diagnose diseases based on user symptoms. The chatbot will be built using Rasa and Spacy, which are software libraries used for natural language processing and machine learning</p>
+                                <a href="https://github.com/YashaswiniJawalkar/Conversational_AI--Healthcare-VoiceBot.git" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/placement prediction.jpeg">
+                            <div class="layer">
+                                <h2>Campus Placement Prediction</h2>
+                                <p>The project aims to predict the likelihood of a student being placed in a company based on historical placement data, academic records, and relevant skills of students. It provides valuable insights to both students and recruiters, enhancing the placement process and increasing overall job satisfaction.</p>
+                                <a href="https://github.com/YashaswiniJawalkar/Placement__Prediction--Using-Machine-Learning" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="button--flex button b">See More</button>
+                </div>
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section_title">Contact Me</h2>
+            <span class="section_subtitle">Get in Touch</span>
+            <div class="contact_container container grid">
+                <div>
+                    <div class="contact_information">
+                        <i class="uil uil-phone contact_icon"></i>
+                        <div>
+                            <h3 class="contact_title">Call Me</h3>
+                            <span class="contact_subtitle">7794844779</span>
+                        </div>
+                    </div>
+                    <div class="contact_information">
+                        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJlGTZFDCfzVZvpbrPWDCzqvqqxkVkbDWVhWNgdKLQVkCJSHPPhQSxrdrFdVWxJGnhQBRSq"
+                            target="_blank"><i class="uil uil-envelope-alt contact_icon"></i></a>
+                        <div>
+                            <h3 class="contact_title">Mail Me</h3>
+                            <span class="contact_subtitle">yashaswini.jawalkar@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact_information">
+                        <a href="https://www.google.com/maps/place/Anantapur,+Andhra+Pradesh/@14.6649575,77.5591868,13z/data=!3m1!4b1!4m6!3m5!1s0x3bb14ac2e6404f37:0xb810d064e2ce70e8!8m2!3d14.6818877!4d77.6005911!16zL20vMDNnbDcy"
+                            target="_blank"><i class="uil uil-map-marker contact_icon"></i></a>
+                        <div>
+                            <h3 class="contact_title">Location</h3>
+                            <span class="contact_subtitle">Anataputram - AndhraPradesh - India</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form name="submit-to-google-sheet" action="" class="contact_form grid">
+                    <div class="contact_inputs grid">
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Name</label>
+                            <input type="text" name="Name" class="contact_input" required>
+                        </div>
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Email</label>
+                            <input type="email" name="Email" class="contact_input" required>
+                        </div>
+                        <div class="contact_content">
+                            <label for="" class="contact_label">message</label>
+                            <textarea name="Message" id="" cols="0" rows="6" class="contact_input" required></textarea>
+                        </div>
+                        <div>
+                            <span id="msg"></span>
+                            <button type="submit" class="button--flex button">
+                                Send message
+                                <i class="uil uil-message button_icon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <p class="footer_copy">copyright &copy; Yashaswini Jawalkar. All right reserved</p>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup-icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src=""></script>
+
+    <!--==================== MAIN JS ====================-->
+
+    <script src="main.js"></script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwg_vxo_dbD66Bn87GQiDtHR1QR1jNT9RdPCbwbs8NmUCYrXrbaMUAM3Pz6y8k6dzIBnw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Your Message Sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 2000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
