@@ -633,39 +633,60 @@ span {
 }
 
 .skills_java {
-    width: 80%;
+    width: 90%;
 }
 
 .skills_python {
-    width: 60%;
+    width: 70%;
 }
 
 .skills_c {
-    width: 50%;
+    width: 95%;
 }
 
 .skills_dbms {
-    width: 50%;
+    width: 70%;
 }
 
 .skills_cn {
-    width: 40%;
+    width: 75%;
 }
 
 .skills_os {
-    width: 30%;
-}
-
-.skills_html {
-    width: 80%;
-}
-
-.skills_css {
     width: 60%;
 }
 
+.skills_html {
+    width: 95%;
+}
+
+.skills_css {
+    width: 90%;
+}
+.skils.boot{
+    width: 80;
+}
+
 .skills_js {
-    width: 50%;
+    width: 60%;
+}
+.skills_sql{
+    width:75%
+}
+.skills_mongo{
+    width: 60%;
+}
+.skills_ml{
+    width: 75%;
+}
+.skills_iot{
+    width: 55%;
+}
+.skills_cs{
+    width: 55%;
+}
+.skills_ad{
+    width: 70%;
 }
 
 .skills_php {
